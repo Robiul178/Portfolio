@@ -3,7 +3,7 @@ import contact from '../../../assets/contact us.png'
 
 const Contact = () => {
     return (
-        <section id='contact' className='bg-gray-800 py-28 w-screen'>
+        <section id='contact' className=' py-28 w-screen'>
             <div className="p-6  text-gray-50">
                 <h1 className='text-3xl py-5 pl-10'>Contact Me</h1>
                 <form action="https://formspree.io/f/mrgdnrow" method='POST' className="container flex flex-col mx-auto space-y-12 ng-untouched ng-pristine ng-valid">

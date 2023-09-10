@@ -3,12 +3,12 @@ import '../../../App.css'
 import { Link as NavLink } from 'react-scroll'
 import resume from "../../../assets/Shakib'sResume.pdf"
 import { Link } from 'react-router-dom';
-import Logo from '../../../assets/logo/robi.png'
+import Logo from '../../../assets/logo/loggo.png';
 
 const Navber = () => {
     return (
-        <div className='text-white w-full'>
-            <div className="navbar fixed z-50 bg-gray-800">
+        <div className='text-black pt-5'>
+            <div className="navbar max-w-7xl mx-auto z-50 bg-white rounded-lg drop-shadow-lg">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost  lg:hidden">
@@ -29,15 +29,9 @@ const Navber = () => {
                     </div>
                     <NavLink to='header' spy={true} smooth={true} offset={-80} duration={1000} className="normal-case text-2xl ml-8">
 
-                        <span className='font-bold text-primary text-xl'>ROBIUL</span>
-
-                        {/* <span className='font-bold text-sky-500'>R</span>
-                        <span className='font-bold text-primary'>O</span>
-                        <span className='font-bold text-green-500'>B</span>
-                        <span className='font-bold text-secondary'>I</span>
-                        <span className='font-bold text-accent'>U</span>
-                        <span className='font-bold text-yellow-500'>L</span> */}
-                        {/* <img src={Logo} alt="" /> */}
+                        <span className='font-bold text-black text-xl'>
+                            ROBIUL ISLAM
+                        </span>
 
                     </NavLink>
                 </div>
@@ -52,7 +46,7 @@ const Navber = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href={resume} download='shakibResume' target={0} className="btn btn-outline btn-info text-white font-bold">
+                    <a href={resume} download='shakibResume' target={0} className="btn btn-outline">
                         Resume</a>
 
                 </div>

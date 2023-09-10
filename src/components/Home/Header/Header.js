@@ -16,15 +16,26 @@ const Header = () => {
     })
 
     return (
-        <section id='header' className='bg-gray-800'>
+        <section id='header'>
             <Navber></Navber>
             <div className="md:grid md:grid-cols-2 gap-10 h-screen">
-                <div className=' pt-28 pl-20 md:flex items-end md:items-center md:ml-60'>
+                <div className=' pt-20 pl-20 md:flex items-end md:items-center md:ml-60'>
                     <div>
                         <p className='font-bold text-cyan-500'>Hello,</p>
                         <h1 className='text-4xl md:text-5xl font-bold text-sky-400'>I{text}</h1>
-                        <p className='font-bold text-gray-400 mt-2'>Front End Developer</p>
-                        <div className='flex gap-3 mt-4'>
+                        <p className='font-bold text-2xl text-cyan-700 mt-2'>Front End Developer</p>
+                        <div className=" flex gap-4 font-semibold text-accent">
+                            <p>
+                                Web Developer |
+                            </p>
+                            <p>
+                                Wordpress Customizer  |
+                            </p>
+                            <p>
+                                Computer Science
+                            </p>
+                        </div>
+                        <div className='flex gap-3 mt-4 w-8'>
                             <a target={0} href='https://www.linkedin.com/in/robiulislam007/' className='text-blue-600'><FaLinkedin></FaLinkedin></a>
                             <a target={0} href='https://github.com/Robiul178' className='text-gray-600'><FaGithubSquare></FaGithubSquare></a>
                             <a target={0} href='https://www.facebook.com/profile.php?id=100012311562343' className='text-blue-600'><FaFacebook></FaFacebook></a>

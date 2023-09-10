@@ -4,87 +4,66 @@ import chamber from '../../../assets/doctor.png'
 import pose from '../../../assets/poseNclick.png'
 import coursehut from '../../../assets/courseHut.png'
 import { Link } from 'react-router-dom';
+
+import { FiGithub, FiMonitor } from 'react-icons/fi';
+
 // import '../../../App.css'
 
 const ShowCase = () => {
     return (
-        <section id='projects' className='bg-gray-800 w-screen'>
-            <div className='text-white ml-8 md:ml-10'>
-                <h1 className='text-3xl py-5 '>Projects</h1>
+        <section id='projects' className='max-w-7xl mx-auto'>
+            <div className='text-black ml-8 md:ml-4'>
+
+                <div
+                    className="text-start sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-sky-400"
+                >
+                    <h3 className="text-3xl font-semibold">Project</h3>
+                </div>
+
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
 
-                    <div className="card card-compact w-72 md:w-96 bg-base-100 shadow-xl mb-5">
-                        <figure><img src={laptop} alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">Laptop-Bazar</h2>
-                            <p className='text-gray-400'>Full stack and fully responsive used laptop buy and selling website-Time period:4 days
-                                Technologies:ReactJs,NodeJs,ExpressJs, <br></br> MongoDB,Firebase, JWT,Stripe ,TailwindCSS.</p>
-                            <div className="card-actions justify-end">
-                                <a href="https://laptop-bazar-nu.vercel.app/" target={0}>
-                                    <button className="btn btn-outline btn-info">Live site</button>
-                                </a>
-                                <Link to='/laptopBazar'>
-                                    <span className="btn btn-outline btn-info">More details</span>
-                                </Link>
-
-                            </div>
-                        </div>
-                    </div>
-
+                    {/* 1st Project */}
                     <div className="card card-compact w-72 md:w-96 bg-base-100 shadow-xl mb-5">
                         <figure><img src={chamber} alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">DoctorChamber</h2>
-                            <p className='text-gray-400'>A full stack responsive Healthcare service provider website-Time period:4 days
-                                Technologies:ReactJs,NodeJs,ExpressJs, <br></br> MongoDB,Firebase, JWT,Stripe ,TailwindCSS.</p>
-                            <div className="card-actions justify-end">
-                                <a href="https://doctorchamber-ae2a3.web.app/" target={0}>
-                                    <button className="btn btn-outline btn-info">Live site</button>
+                        <div className="card-body text-clip ">
+                            <h2 className="text-2xl font-bold text-black text-center">DoctorPortal</h2>
+                            <p
+                                className='text-gray-600 text-center text-lg'
+                            >
+                                A full stack responsive Healthcare service provider website
+                            </p>
+                            <div className="card-actions justify-end border-b-2 p-2">
+                                <a href="https://exquisite-salmiakki-05007c.netlify.app/" target={0}>
+                                    <button className="btn btn-outline btn-info">
+                                        <FiMonitor></FiMonitor>
+                                        Live</button>
                                 </a>
-                                <Link to='/doctorChamber'>
-                                    <span className="btn btn-outline btn-info">More details</span>
-                                </Link>
+                                <a href="https://github.com/Robiul178/doctor-portal" target={0}>
+                                    <button className="btn btn-outline btn-success">
+                                        <FiGithub></FiGithub>
+                                        Client</button>
+                                </a>
+                                <a href="https://github.com/Robiul178/doctor-portl-server" target={0}>
+                                    <button className="btn btn-outline btn-warning">
+                                        <FiGithub></FiGithub>
+                                        server</button>
+                                </a>
                             </div>
-                        </div>
-                    </div>
+                            <div>
+                                <p className='text-black text-md text-md'>
+                                    <span className=" text-lg font-bold">
+                                        Technologies:
+                                    </span> <br />
+                                    ReactJs, NodeJs, ExpressJs, MongoDB,TailwindCSS ,Firebase.
 
-                    <div className="card card-compact w-72 md:w-96 bg-base-100 shadow-xl mb-5">
-                        <figure><img src={pose} alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">Pose-N-Click</h2>
-                            <p className='text-gray-400'>A full-stack mobile responsive project for a Photography service provider - Time period: 3 days
-                                Technologies: ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, JWT, ,Tailwind CSS</p>
-                            <div className="card-actions justify-end">
-                                <a href="https://posenclick-2964b.web.app/" target={0}>
-                                    <button className="btn btn-outline btn-info">Live site</button>
-                                </a>
-                                <Link to='/poseNclick'>
-                                    <span className="btn btn-outline btn-info">More details</span>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card card-compact w-72 md:w-96 bg-base-100 shadow-xl mb-5">
-                        <figure><img src={coursehut} alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">CourseHut</h2>
-                            <p className='text-gray-400'>A full-stack mobile responsive project for Online course seller. - Time period: 2 days
-                                Technologies: JavaScipt, ReactJs, React-Router-dom, React-tostify, React-pdf, Tailwind CSS</p>
-                            <div className="card-actions justify-end">
-                                <a href="https://coursehut-7e4c9.web.app/" target={0}>
-                                    <button className="btn btn-outline btn-info">Live site</button>
-                                </a>
-                                <Link to='/courseHut'>
-                                    <span className="btn btn-outline btn-info">More details</span>
-                                </Link>
+                                </p>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 
