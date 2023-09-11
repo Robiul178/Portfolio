@@ -71,12 +71,12 @@ const ShowCase = () => {
                                         <FiMonitor></FiMonitor>
                                         Live</button>
                                 </a>
-                                <a href="https://github.com/Robiul178/doctor-portal" target={0}>
+                                <a href="https://github.com/Robiul178/HolidayEscape" target={0}>
                                     <button className="btn btn-outline btn-success">
                                         <FiGithub></FiGithub>
                                         Client</button>
                                 </a>
-                                <a href="https://github.com/Robiul178/doctor-portl-server" target={0}>
+                                <a href="https://github.com/Robiul178/HolidayEscape-server" target={0}>
                                     <button className="btn btn-outline btn-warning">
                                         <FiGithub></FiGithub>
                                         server</button>
@@ -87,7 +87,7 @@ const ShowCase = () => {
                                     <span className=" text-lg font-bold">
                                         Technologies:
                                     </span> <br />
-                                    ReactJs, NodeJs, ExpressJs, MongoDB,TailwindCSS ,Firebase.
+                                    ReactJs, NodeJs, ExpressJs, MongoDB,TailwindCSS ,Firebase..
 
                                 </p>
                             </div>
