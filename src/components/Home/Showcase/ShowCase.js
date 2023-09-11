@@ -1,9 +1,5 @@
 import React from 'react';
-import laptop from '../../../assets/laptop-bazar.png'
-import chamber from '../../../assets/doctor.png'
-import pose from '../../../assets/poseNclick.png'
-import coursehut from '../../../assets/courseHut.png'
-import { Link } from 'react-router-dom';
+import chamber from '../../../assets/details/HolidayEscape.png'
 
 import { FiGithub, FiMonitor } from 'react-icons/fi';
 
