@@ -3,9 +3,14 @@ import contact from '../../../assets/contact us.png'
 
 const Contact = () => {
     return (
-        <section id='contact' className=' py-28 w-screen'>
-            <div className="p-6  text-gray-50">
-                <h1 className='text-3xl py-5 pl-10'>Contact Me</h1>
+        <section id='contact' className='bg-slate-300 p-4 py-28 w-screen'>
+            <div className="p-6  text-gray-50  max-w-7xl mx-auto">
+                <div
+                    className="text-start sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-sky-400"
+                >
+                    <h3 className="text-3xl font-semibold">Contact Me</h3>
+                </div>
+                {/* <h1 className='text-3xl py-5 '>Contact Me</h1> */}
                 <form action="https://formspree.io/f/mrgdnrow" method='POST' className="container flex flex-col mx-auto space-y-12 ng-untouched ng-pristine ng-valid">
                     <fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm">
                         <div className="space-y-2 col-span-full lg:col-span-1">

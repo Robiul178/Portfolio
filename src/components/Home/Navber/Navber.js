@@ -1,9 +1,8 @@
 import React from 'react';
 import '../../../App.css'
 import { Link as NavLink } from 'react-scroll'
-import resume from "../../../assets/Shakib'sResume.pdf"
+import resume from "../../../assets/Robiul's Resume.pdf"
 import { Link } from 'react-router-dom';
-import Logo from '../../../assets/logo/loggo.png';
 
 const Navber = () => {
     return (
@@ -46,7 +45,7 @@ const Navber = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href={resume} download='shakibResume' target={0} className="btn btn-outline">
+                    <a href={resume} download='robiulResume' target={0} className="btn btn-outline">
                         Resume</a>
 
                 </div>

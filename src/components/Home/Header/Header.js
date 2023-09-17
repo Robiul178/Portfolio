@@ -29,7 +29,7 @@ const Header = () => {
                                 Web Developer |
                             </p>
                             <p>
-                                Wordpress Customizer  |
+                                Wordpress Customize  |
                             </p>
                             <p>
                                 Computer Science

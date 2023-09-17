@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <section className=' py-8 md:py-48 max-w-7xl mx-auto '>
+        <section className=' py-8 md:py-48 max-w-7xl mx-auto'>
 
             <div
                 className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-sky-400"

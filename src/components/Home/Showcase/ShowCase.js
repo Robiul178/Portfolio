@@ -1,5 +1,6 @@
 import React from 'react';
-import chamber from '../../../assets/details/HolidayEscape.png'
+import chamber from '../../../assets/details/HolidayEscape.png';
+import doctorr from '../../../assets/details/ddd.png';
 
 import { FiGithub, FiMonitor } from 'react-icons/fi';
 
@@ -20,7 +21,7 @@ const ShowCase = () => {
 
                     {/* 1st Project */}
                     <div className="card card-compact w-72 md:w-96 bg-base-100 shadow-xl mb-5">
-                        <figure><img src={chamber} alt="Shoes" /></figure>
+                        <figure><img src={doctorr} alt="Shoes" /></figure>
                         <div className="card-body text-clip ">
                             <h2 className="text-2xl font-bold text-black text-center">DoctorPortal</h2>
                             <p
