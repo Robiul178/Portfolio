@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../App.css'
 import { Link as NavLink } from 'react-scroll'
-import resume from "../../../assets/Robiul's Resume.pdf"
+import resume from "../../../assets/robiulIslam.pdf"
 import { Link } from 'react-router-dom';
 
 const Navber = () => {
