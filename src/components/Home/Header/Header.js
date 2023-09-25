@@ -42,7 +42,7 @@ const Header = () => {
                             <a target={0} href='https://www.instagram.com/robiul.islam__/' className='text-blue-600'><FaInstagram></FaInstagram></a>
                         </div>
                         <Link to='contact' spy={true} smooth={true} offset={-80} duration={1000}>
-                            <span className='btn btn-outline btn-info font-bold my-5'>Hire me</span>
+                            <span className='btn btn-outline btn-info font-bold my-5'>Hire Me</span>
                         </Link>
                     </div>
                 </div>
